@@ -6,6 +6,7 @@ body {
   position: relative;
   font-family: montserrat;
   font-weight: normal;
+  overflow-x: hidden;
 }
 body::-webkit-scrollbar {
   background-color: #fff;
@@ -13,12 +14,13 @@ body::-webkit-scrollbar {
   height: 0px;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #000;
+  background-color: #006838;
 }
 
 html {
   scrollbar-width: thin;
-  scrollbar-color: #000 #fff;
+  scrollbar-color: #006838 #fff;
+  overflow-x: hidden;
 }
 
 input::-webkit-outer-spin-button,
@@ -370,6 +372,10 @@ header.header-scroll.fixsedt {
   align-items: center;
   justify-content: center;
   max-width: 100%;
+}
+.main-img img {
+  width: 845px;
+  height: 447px;
 }
 @media (max-width: 767px) {
   .main-img img {
@@ -858,6 +864,10 @@ header.header-scroll.fixsedt {
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.thumb-slide:hover {
+  opacity: 1;
 }
 .thumb-slide .slide-img {
   padding-bottom: 216.379310345%;
