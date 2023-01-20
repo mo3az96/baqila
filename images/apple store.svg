@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.167" height="26.164" viewBox="0 0 26.167 26.164">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bffc"/>
+      <stop offset="1" stop-color="#0073f6"/>
+    </linearGradient>
+  </defs>
+  <g id="apple_store" data-name="apple store" transform="translate(0 -0.032)">
+    <g id="Group_173961" data-name="Group 173961" transform="translate(0 0.032)">
+      <path id="Path_61130" data-name="Path 61130" d="M20.879.032H5.285A5.283,5.283,0,0,0,0,5.317v15.6A5.282,5.282,0,0,0,5.285,26.2h15.6a5.285,5.285,0,0,0,5.285-5.285V5.317A5.288,5.288,0,0,0,20.879.032Z" transform="translate(0 -0.032)" fill="url(#linear-gradient)"/>
+      <g id="Group_173960" data-name="Group 173960" transform="translate(3.486 4.495)">
+        <path id="Path_61131" data-name="Path 61131" d="M77.7,89.5l.53-.916a1.193,1.193,0,1,1,2.067,1.19L75.192,98.61h3.692a1.634,1.634,0,0,1,1.347,2.381H69.406a1.19,1.19,0,0,1,0-2.381h3.035l3.885-6.734L75.114,89.77a1.193,1.193,0,1,1,2.067-1.19Z" transform="translate(-68.216 -87.982)" fill="#fff"/>
+        <path id="Path_61132" data-name="Path 61132" d="M101.369,351.6l-1.145,1.985a1.193,1.193,0,0,1-2.067-1.19l.85-1.472A2.038,2.038,0,0,1,101.369,351.6Z" transform="translate(-96.476 -337.363)" fill="#fff"/>
+        <path id="Path_61133" data-name="Path 61133" d="M274.746,183.421h3.1a1.19,1.19,0,0,1,0,2.381h-1.72l1.161,2.015a1.193,1.193,0,0,1-2.067,1.19q-2.934-5.087-4.4-7.62a3.293,3.293,0,0,1,.419-4.032Q272.409,179.365,274.746,183.421Z" transform="translate(-259.996 -172.786)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

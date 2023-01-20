@@ -1,0 +1,36 @@
+<svg id="download" xmlns="http://www.w3.org/2000/svg" width="1246" height="245" viewBox="0 0 1246 245">
+  <g id="Group_174217" data-name="Group 174217" transform="translate(-79 -4053)">
+    <text id="_" data-name="+" transform="translate(1095 4158)" fill="#006838" font-size="53" font-family="Montserrat-Arabic-Bold, Montserrat-Arabic" font-weight="700" opacity="0.18"><tspan x="-13.542" y="0">+</tspan></text>
+    <g id="Group_174216" data-name="Group 174216" transform="translate(1002 3873)">
+      <g id="Ellipse_727" data-name="Ellipse 727" transform="translate(194 373)" fill="#fff" stroke="#3c435c" stroke-width="4" opacity="0.21">
+        <circle cx="26" cy="26" r="26" stroke="none"/>
+        <circle cx="26" cy="26" r="24" fill="none"/>
+      </g>
+      <g id="Ellipse_728" data-name="Ellipse 728" transform="translate(303 280)" fill="#fff" stroke="#3c435c" stroke-width="4" opacity="0.21">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="8" fill="none"/>
+      </g>
+      <g id="Ellipse_730" data-name="Ellipse 730" transform="translate(246 180)" fill="#fff" stroke="#3c435c" stroke-width="4" opacity="0.1">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="13" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="Group_174218" data-name="Group 174218">
+    <text id="_2" data-name="+" transform="matrix(-1, 0, 0, 1, 230, 105)" fill="#006838" font-size="53" font-family="Montserrat-Arabic-Bold, Montserrat-Arabic" font-weight="700" opacity="0.18"><tspan x="-13.542" y="0">+</tspan></text>
+    <g id="Group_174216-2" data-name="Group 174216">
+      <g id="Ellipse_727-2" data-name="Ellipse 727" transform="translate(77 193)" fill="#fff" stroke="#3c435c" stroke-width="4" opacity="0.21">
+        <circle cx="26" cy="26" r="26" stroke="none"/>
+        <circle cx="26" cy="26" r="24" fill="none"/>
+      </g>
+      <g id="Ellipse_728-2" data-name="Ellipse 728" transform="translate(0 100)" fill="#fff" stroke="#3c435c" stroke-width="4" opacity="0.21">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="8" fill="none"/>
+      </g>
+      <g id="Ellipse_730-2" data-name="Ellipse 730" transform="translate(47)" fill="#fff" stroke="#3c435c" stroke-width="4" opacity="0.1">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="13" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
