@@ -6,7 +6,6 @@ body {
   position: relative;
   font-family: montserrat;
   font-weight: normal;
-  overflow-x: hidden;
 }
 body::-webkit-scrollbar {
   background-color: #fff;
@@ -20,6 +19,7 @@ body::-webkit-scrollbar-thumb {
 html {
   scrollbar-width: thin;
   scrollbar-color: #006838 #fff;
+  overflow-x: hidden;
 }
 
 input::-webkit-outer-spin-button,
