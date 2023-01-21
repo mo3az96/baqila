@@ -20,7 +20,6 @@ body::-webkit-scrollbar-thumb {
 html {
   scrollbar-width: thin;
   scrollbar-color: #006838 #fff;
-  overflow-x: hidden;
 }
 
 input::-webkit-outer-spin-button,
