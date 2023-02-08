@@ -169,7 +169,6 @@ header.header-scroll.fixsedt {
   font-weight: 700;
   color: #006838;
   margin: auto;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin-bottom: 100px;
@@ -208,18 +207,6 @@ header.header-scroll.fixsedt {
 @media (max-width: 991px) {
   .download-sec .sec-title {
     margin-bottom: 30px;
-  }
-}
-
-@-webkit-keyframes float {
-  0% {
-    transform: matrix(0.87, 0.5, -0.5, 0.87, 0, 0) translatey(0px);
-  }
-  50% {
-    transform: matrix(0.87, 0.5, -0.6, 0.87, 0, 0) translatey(-20px);
-  }
-  100% {
-    transform: matrix(0.87, 0.5, -0.5, 0.87, 0, 0) translatey(0px);
   }
 }
 
@@ -312,14 +299,12 @@ header.header-scroll.fixsedt {
 .main-sec::before {
   top: 135px;
   inset-inline-end: -560px;
-  -webkit-animation: float 6s ease-in-out infinite;
-          animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
 }
 .main-sec::after {
   bottom: -80px;
   inset-inline-start: -520px;
-  -webkit-animation: float 7s ease-in-out infinite;
-          animation: float 7s ease-in-out infinite;
+  animation: float 7s ease-in-out infinite;
 }
 @media (max-width: 767px) {
   .main-sec {
@@ -438,10 +423,15 @@ header.header-scroll.fixsedt {
   }
 }
 
+#about {
+  overflow: hidden;
+}
+
 .about-sec {
   padding: 67px 0 0;
   background-color: #006838;
   position: relative;
+  overflow: hidden;
 }
 .about-sec:after {
   content: url(../images/pattern/about.svg);
@@ -449,8 +439,7 @@ header.header-scroll.fixsedt {
   top: 50%;
   left: 0;
   z-index: 1;
-  -webkit-animation: rotating 250s linear infinite;
-          animation: rotating 250s linear infinite;
+  animation: rotating 250s linear infinite;
 }
 @media (max-width: 991px) {
   .about-sec {
@@ -520,15 +509,6 @@ header.header-scroll.fixsedt {
   margin: 20px 0 0;
 }
 
-@-webkit-keyframes rotating {
-  from {
-    transform: translateY(-50%) translateX(-50%) rotate(0deg);
-  }
-  to {
-    transform: translateY(-50%) translateX(-50%) rotate(360deg);
-  }
-}
-
 @keyframes rotating {
   from {
     transform: translateY(-50%) translateX(-50%) rotate(0deg);
@@ -567,14 +547,12 @@ header.header-scroll.fixsedt {
 .features-sec::before {
   top: 0;
   inset-inline-end: -560px;
-  -webkit-animation: float 7s ease-in-out infinite;
-          animation: float 7s ease-in-out infinite;
+  animation: float 7s ease-in-out infinite;
 }
 .features-sec::after {
   bottom: -100px;
   inset-inline-start: -560px;
-  -webkit-animation: float 5s ease-in-out infinite;
-          animation: float 5s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
 }
 
 .features-cont {
@@ -755,7 +733,6 @@ header.header-scroll.fixsedt {
   align-items: center;
   justify-content: center;
   min-width: 37px;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   height: 33px;
@@ -909,8 +886,7 @@ header.header-scroll.fixsedt {
   z-index: 1;
   top: 0;
   inset-inline-start: -560px;
-  -webkit-animation: float 6s ease-in-out infinite;
-          animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
 }
 
 .faq-acc {
@@ -1134,10 +1110,6 @@ header.header-scroll.fixsedt {
   font-weight: 400;
   color: #8b8b8b;
 }
-.form-control:-ms-input-placeholder {
-  font-weight: 400;
-  color: #8b8b8b;
-}
 .form-control::placeholder {
   font-weight: 400;
   color: #8b8b8b;
@@ -1145,16 +1117,10 @@ header.header-scroll.fixsedt {
 html[dir=rtl] .form-control::-moz-placeholder {
   text-align: right;
 }
-html[dir=rtl] .form-control:-ms-input-placeholder {
-  text-align: right;
-}
 html[dir=rtl] .form-control::placeholder {
   text-align: right;
 }
 html[dir=ltr] .form-control::-moz-placeholder {
-  text-align: left;
-}
-html[dir=ltr] .form-control:-ms-input-placeholder {
   text-align: left;
 }
 html[dir=ltr] .form-control::placeholder {
