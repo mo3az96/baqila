@@ -5,6 +5,7 @@ $(document).ready(function () {
   sal({
     once: true,
   });
+  $("html").css('scroll-behavior', 'auto');
   /* ~~~~~~~~~~~~~~~ Navigation ~~~~~~~~~~~~~~~ */
   new bootstrap.ScrollSpy(document.body, {
     target: "#fixedNavbar",
